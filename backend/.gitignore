@@ -1,0 +1,14 @@
+/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+### Sensitive Data ###
+src/main/resources/application.properties
+
+### STS ###
+.apt_generated
+.classpath
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+/.nb-gradle/
