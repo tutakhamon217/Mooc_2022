@@ -58,6 +58,7 @@ public class UserServiceImplTest {
         ServiceResult<Boolean> actual = userService.changePassword(changePasswordForm);
         assertEquals("Tên đăng nhập không tồn tại", actual.getMessage());
         assertEquals(HttpStatus.BAD_REQUEST, actual.getStatus());
+		assertEquals(HttpStatus.BAD_REQUEST, actual.getStatus());
     }
 
     //login exist
